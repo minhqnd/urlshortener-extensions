@@ -1,0 +1,32 @@
+{
+	"manifest_version": 2,
+	"name": "URL shortener",
+	"description": "URL shortener with support for custom alias",
+	"author": "minhmoiii",
+	"version": "0.1.5",
+	"homepage_url": "https://qminh.xyz",
+	"icons": {
+		"16": "icons/icon-16x16.png",
+		"32": "icons/icon-32x32.png",
+		"48": "icons/icon-48x48.png",
+		"128": "icons/icon-128x128.png"
+	},
+	"browser_action": {
+		"default_title": "URL shortener",
+		"default_icon": "icons/icon-48x48.png",
+		"default_popup": "popup.html"
+	},
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": false
+	},
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"storage",
+		"http://*/*",
+		"https://*/*"
+	],
+	"content_security_policy": "script-src 'self' https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js; object-src 'self'"
+	
+}
