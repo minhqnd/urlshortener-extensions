@@ -27,6 +27,6 @@
 		"http://*/*",
 		"https://*/*"
 	],
-	"content_security_policy": "script-src 'self' https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js; object-src 'self'"
+	"content_security_policy": "script-src 'self' https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js; object-src 'self'"
 	
 }
